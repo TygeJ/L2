@@ -4,9 +4,23 @@
 
 .cell {
   flex: 1; /* 1 1 0%*/
-  border: black solid;
+  /* border: black solid; */
 }
 
-.sqr {
-  border: solid black 5px;
+.gutters {
+  margin: -10px 0 10 -10px;
 }
+
+.gutters > .cell {
+  padding: 10px 0 0 10px;
+}
+
+.cell > div {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 100%;
+  padding: 10px;
+}
+
+/* .sqr {
+  border: solid black 5px;
+} */
