@@ -1,6 +1,6 @@
 .media {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
 }
 
 .figure {
